@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
     ~ Copyright 2022 The TensorFlow Authors. All Rights Reserved.
     ~
     ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +14,7 @@
     ~ limitations under the License.
 -->
 <resources>
-    <string name="app_name">MP Gesture Recognizer</string>
+    <string name="app_name">SignifyX</string>
 
     <string name="media_pipe">MediaPipe</string>
 
@@ -26,8 +25,8 @@
         <item>Arabic</item>
     </string-array>
 
-    <string name="alt_bottom_sheet_max_results_button_minus">Decreasing
-        maximum recognized results button</string>
+    <string name="alt_bottom_sheet_max_results_button_minus">
+        Decreasing maximum recognized results button</string>
     <string name="alt_bottom_sheet_max_results_button_plus">Increasing maximum recognized results
         button</string>
     <string name="alt_bottom_sheet_threshold_button_minus">Decreasing
@@ -38,10 +37,11 @@
     <string name="alt_bottom_sheet_thread_button_plus">Increase the number of threads used</string>
     <string name="menu_camera">Camera</string>
     <string name="menu_gallery">Gallery</string>
+    <string name="menu_help">Help</string>
     <string name="tv_gallery_placeholder">Click + to add an image or a video
         to begin running the gesture recognizer.</string>
 
-    <string name="label_inference_time">Speed</string>
+    <string name="label_inference_time">Inference Time</string>
     <string name="label_fps">Frames per Second</string>
     <string name="label_hand_detection_confidence_threshold">Detection
         Threshold</string>
@@ -51,10 +51,46 @@
     <string name="label_hand_presence_confidence_threshold">Presence
         Threshold</string>
     <string name="label_delegate">Delegate</string>
-    <string name="_0ms">0ms</string>
 
     <string-array name="delegate_spinner_titles">
         <item>CPU</item>
         <item>GPU</item>
     </string-array>
+    <!-- DOCUMENTATION RELATED VALUES -->
+
+
+    <string name="introduction">
+    <![CDATA[
+    <b>Welcome to SignifyX!</b><br/>
+    Your ultimate tool for seamless communication through sign language.<br/>
+    SignifyX is designed to support the American, French, and Arabic Sign Language Alphabets, enabling you to effortlessly interact with deaf and hard-of-hearing individuals. Whether you are learning signs or assisting someone in need, this app bridges the gap, empowering conversations and fostering understanding across cultures and languages.<br/>
+    Swipe up to open the settings panel and choose your preferred language.
+    <br/><br/>
+    <b>Modes</b><br/>
+    SignifyX offers two powerful modes to enhance your experience:
+    <br/><br/>
+    <b>Camera Mode:</b>
+    This mode enables real-time sign detection using your phone’s camera. Simply tap the Camera button in the navigation bar, and your camera will open, ready to detect signs as they happen. For the best experience, position yourself about 1 to 2 meters away from the camera and perform your signs. The app will instantly recognize them, displaying the results on the bottom left corner of your screen. Whether you’re practicing or communicating, Camera Mode brings sign language to life, effortlessly bridging the communication gap.
+    <br/><br/>
+    <b>Gallery Mode:</b>
+    Want to analyze signs from an image or video? Gallery Mode has you covered. By tapping the Gallery button in the navigation bar, you’ll be taken to a new page where you can upload content. Tap the \'+\' button in the bottom right to choose an image or video from your device. Once uploaded, the app will detect the signs—showing results frame by frame if it’s a video. This feature allows you to explore sign language with precision, providing a detailed breakdown of each frame.
+    <br/><br/>
+    <b>Settings Panel</b><br/>
+    When you swipe up from the bottom of the screen, you unlock a range of settings that allow you to personalize your experience and make SignifyX work better for you:<br/>
+    <b>Inference Time:</b> Control how quickly signs are detected and interpreted. This option allows you to balance speed and accuracy, adjusting the detection time to suit your device capabilities and needs.<br/>
+    <b>Language:</b> Here, you can select your preferred sign language. SignifyX currently supports American, French, and Arabic sign languages, making it versatile and adaptable to different linguistic needs.<br/>
+    <b>Detection Threshold:</b> This setting allows you to adjust the sensitivity of the sign detection. Whether you\'re in a well-lit room or a more challenging environment, you can tweak this threshold to ensure accurate recognition of your signs.<br/>
+    <b>Tracking Threshold:</b> Fine-tune how closely the app tracks the movement of your signs in real-time. Whether you want ultra-precise tracking or a more fluid experience, this option lets you decide what works best for your situation.<br/><br/>
+    <b>References</b><br/>
+    Sign languages can vary from person to person. The following are all the signs used in our model for consistent recognition and interpretation.
+    ]]>
+</string>
+    <string name="signifyx">SIGNIFYX</string>
+    <string name="asl">ASL</string>
+    <string name="asl_amp_fsl_alphabets"><![CDATA[ASL & FSL Alphabets]]></string>
+    <string name="asl_alphabets">ASL Alphabets</string>
+    <string name="arabic_sl_alphabets">Arabic SL Alphabets</string>
+    <string name="arabic_sl_alphabets1">Arabic SL Alphabets</string>
+    <string name="_0ms">0ms</string>
+
 </resources>
